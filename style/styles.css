@@ -8,23 +8,33 @@
 
 body {
   font-family: var(--default-font-family);
+  margin-bottom: 200px;
 }
-h1 {
+
+h1,
+h2 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   color: black;
+}
+h1 {
   font-size: 96px;
   margin: 0px;
   margin-bottom: 50px;
   line-height: 80%;
 }
+h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-size: 18px;
 }
 
 .hero p,
-h2 {
+.hero h2 {
   font-family: var(--default-font-family);
   color: var(--subheading-color);
 }
@@ -49,4 +59,42 @@ h2 {
   padding: 160px 20px;
   text-align: center;
   background-color: var(--primary-color);
+}
+.intro {
+  padding: 94px 0px;
+  text-align: center;
+}
+.btn-white {
+  color: var(--secondary-color);
+  border-radius: 4px;
+  border-color: #6c63ff;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 70px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 30px;
+  }
+  .show-image {
+    display: none;
+  }
+  h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .btn-white {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
 }
