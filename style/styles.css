@@ -70,7 +70,7 @@ p {
   border-color: #6c63ff;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 70px;
   }
@@ -84,6 +84,7 @@ p {
   .show-image {
     display: none;
   }
+
   h2 {
     font-size: 45px;
     text-align: center;
@@ -96,5 +97,9 @@ p {
     display: block;
     margin: 0 auto;
     width: 90%;
+  }
+  .description {
+    padding: 0;
+    text-align: center;
   }
 }
