@@ -107,4 +107,55 @@ p {
     padding: 0;
     text-align: center;
   }
+  .about-page h1 {
+    font-size: 50px;
+  }
+  .about-info {
+    text-align: center;
+  }
+  .about-btn {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+.about-page h1 {
+  font-size: 64px;
+  line-height: 85.31px;
+  font-family: var(--heading-font-family);
+}
+.about-page h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--default-font-family);
+  color: var(--subheading-color);
+  font-weight: 700px;
+}
+.about-page p {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--subheading-color);
+  opacity: 70%;
+}
+
+.about-page {
+  padding: 160px 20px;
+}
+
+.my-photo {
+  border-radius: 200px;
+  margin: 0px;
+  padding: 0px 30px;
+}
+
+.about-info {
+  margin-bottom: 80px;
+}
+
+.about-btn {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  padding: 15px 30px;
 }
