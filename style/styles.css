@@ -17,12 +17,7 @@ h2 {
   font-weight: bold;
   color: black;
 }
-h1 {
-  font-size: 96px;
-  margin: 0px;
-  margin-bottom: 50px;
-  line-height: 80%;
-}
+
 h2 {
   font-size: 64px;
   font-family: var(--heading-font-family);
@@ -31,6 +26,13 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 18px;
+}
+
+.hero h1 {
+  font-size: 96px;
+  margin: 0px;
+  margin-bottom: 50px;
+  line-height: 80%;
 }
 
 .hero p,
@@ -75,6 +77,83 @@ p {
   margin: 0px;
   padding: 50px 5px;
 }
+.about-info {
+  margin-bottom: 80px;
+}
+
+.about-btn {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  padding: 15px 30px;
+}
+
+.flyer {
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.work-main {
+  text-align: center;
+}
+.work-main h1 {
+  font-size: 64px;
+  line-height: 85.31px;
+  font-family: var(--heading-font-family);
+}
+.work-main h2 {
+  font-size: 30px;
+  line-height: 27px;
+  font-family: var(--default-font-family);
+  color: var(--subheading-color);
+  font-weight: 700px;
+}
+.work-main p {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--subheading-color);
+  opacity: 70%;
+}
+.work-main h3 {
+  font-size: 28px;
+  line-height: 27px;
+  font-family: var(--default-font-family);
+  color: var(--subheading-color);
+  font-weight: 700px;
+}
+.work-main {
+  padding: 160px 20px;
+}
+.about-main h1 {
+  font-size: 64px;
+  line-height: 85.31px;
+  font-family: var(--heading-font-family);
+}
+.about-main h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--default-font-family);
+  color: var(--subheading-color);
+  font-weight: 700px;
+}
+.about-main p {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--subheading-color);
+  opacity: 70%;
+}
+
+.about-main {
+  padding: 160px 20px;
+}
+
+.my-photo {
+  border-radius: 200px;
+  margin: 0px;
+  padding: 0px 30px;
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 70px;
@@ -93,6 +172,7 @@ p {
   h2 {
     font-size: 45px;
     text-align: center;
+    line-height: 40px;
   }
   p {
     font-size: 16px;
@@ -107,10 +187,10 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-page h1 {
+  .about-main h1 {
     font-size: 50px;
   }
-  .about-info {
+  .info {
     text-align: center;
   }
   .about-btn {
@@ -118,44 +198,19 @@ p {
     margin: 0 auto;
     width: 90%;
   }
-}
-
-.about-page h1 {
-  font-size: 64px;
-  line-height: 85.31px;
-  font-family: var(--heading-font-family);
-}
-.about-page h2 {
-  font-size: 18px;
-  line-height: 27px;
-  font-family: var(--default-font-family);
-  color: var(--subheading-color);
-  font-weight: 700px;
-}
-.about-page p {
-  font-size: 16px;
-  line-height: 30px;
-  color: var(--subheading-color);
-  opacity: 70%;
-}
-
-.about-page {
-  padding: 160px 20px;
-}
-
-.my-photo {
-  border-radius: 200px;
-  margin: 0px;
-  padding: 0px 30px;
-}
-
-.about-info {
-  margin-bottom: 80px;
-}
-
-.about-btn {
-  background-color: var(--secondary-color);
-  border-radius: 4px;
-  color: white;
-  padding: 15px 30px;
+  .work-main {
+    margin: 30px;
+  }
+  .work-main h1 {
+    font-size: 50px;
+  }
+  .work-main h2 {
+    font-size: 25px;
+  }
+  .work-main p {
+    font-size: 16px;
+  }
+  .work-main h3 {
+    font-size: 20px;
+  }
 }
