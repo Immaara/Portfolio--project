@@ -100,6 +100,7 @@ p {
 .work-main h1 {
   font-size: 64px;
   line-height: 85.31px;
+  margin
   font-family: var(--heading-font-family);
 }
 .work-main h2 {
@@ -154,29 +155,44 @@ p {
   padding: 0px 30px;
 }
 
+.navbar {
+  padding: 30px 25px;
+}
+.nav-item {
+  margin-left: 35px;
+}
+
+.nav-link:hover,
+.active {
+  color: var(--secondary-color) !important;
+}
+
 @media (max-width: 767px) {
-  h1 {
+  .hero h1 {
     font-size: 70px;
+    line-height: 70px;
   }
   .hero h2 {
     font-size: 20px;
   }
 
   .hero p {
-    font-size: 30px;
+    font-size: 20px;
   }
   .show-image {
     display: none;
   }
 
   h2 {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     line-height: 40px;
+    padding: 0 5px;
   }
   p {
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
+    padding: 0 20px;
   }
   .btn-white {
     display: block;
@@ -187,8 +203,20 @@ p {
     padding: 0;
     text-align: center;
   }
+  .about-main {
+    text-align: center;
+    
+  }
   .about-main h1 {
     font-size: 50px;
+    padding: 10px 0px;
+  }
+
+  .about-main p {
+    padding: 25px 5px;
+  }
+  .my-photo {
+    display: none;
   }
   .info {
     text-align: center;
@@ -200,7 +228,9 @@ p {
   }
   .work-main {
     margin: 30px;
-  }
+      padding: 160px 20px;
+    }
+  
   .work-main h1 {
     font-size: 50px;
   }
@@ -212,5 +242,11 @@ p {
   }
   .work-main h3 {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 1222px) {
+  .text {
+    display: none;
   }
 }
