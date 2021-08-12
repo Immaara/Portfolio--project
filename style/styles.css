@@ -100,7 +100,6 @@ p {
 .work-main h1 {
   font-size: 64px;
   line-height: 85.31px;
-  margin
   font-family: var(--heading-font-family);
 }
 .work-main h2 {
@@ -167,6 +166,41 @@ p {
   color: var(--secondary-color) !important;
 }
 
+footer {
+  margin: 120px 0px;
+}
+footer .contact-box {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
+
+.mail {
+  text-decoration: none;
+  color: black;
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+.social-media {
+  color: var(--secondary-color);
+  font-size: 40px;
+  padding: 15px 30px;
+  background-color: var(--primary-color);
+  margin: 20px;
+  border-radius: 40px;
+}
+.footer-small-heading {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .hero h1 {
     font-size: 70px;
@@ -205,7 +239,6 @@ p {
   }
   .about-main {
     text-align: center;
-    
   }
   .about-main h1 {
     font-size: 50px;
@@ -228,9 +261,9 @@ p {
   }
   .work-main {
     margin: 30px;
-      padding: 160px 20px;
-    }
-  
+    padding: 160px 20px;
+  }
+
   .work-main h1 {
     font-size: 50px;
   }
@@ -241,6 +274,25 @@ p {
     font-size: 16px;
   }
   .work-main h3 {
+    font-size: 20px;
+  }
+
+  footer .contact-box {
+    display: none;
+  }
+
+  .footer-contact {
+    background-color: var(--primary-color);
+    padding-top: 40px;
+  }
+  .footer-small-heading {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--heading-font-family);
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .mail {
     font-size: 20px;
   }
 }
