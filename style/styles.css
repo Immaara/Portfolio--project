@@ -258,10 +258,6 @@ footer h4 {
     margin: 0 auto;
     width: 90%;
   }
-  .work-main {
-    margin: 30px;
-    padding: 160px 20px;
-  }
 
   .work-main h1 {
     font-size: 50px;
@@ -271,6 +267,7 @@ footer h4 {
   }
   .work-main p {
     font-size: 16px;
+    padding: 0px;
   }
   .work-main h3 {
     font-size: 20px;
@@ -280,21 +277,28 @@ footer h4 {
     display: none;
     margin-left: 50px;
     margin-right: 50px;
+    border-radius: 10px;
   }
 
   .footer-contact {
     background-color: var(--primary-color);
     padding-top: 40px;
+    margin: 10px;
+  }
+  .social-media {
+    margin: 0px;
   }
   .footer-small-heading {
     display: flex;
     justify-content: space-evenly;
     font-family: var(--heading-font-family);
-    font-size: 24px;
+    font-size: 15px;
     padding-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
   }
   .mail {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
