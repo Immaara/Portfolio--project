@@ -8,7 +8,6 @@
 
 body {
   font-family: var(--default-font-family);
-  margin-bottom: 200px;
 }
 
 h1,
@@ -123,7 +122,7 @@ p {
   font-weight: 700px;
 }
 .work-main {
-  padding: 160px 20px;
+  padding: 160px 20px 0px 20px;
 }
 .about-main h1 {
   font-size: 64px;
@@ -145,7 +144,7 @@ p {
 }
 
 .about-main {
-  padding: 160px 20px;
+  padding: 160px 20px 0px 20px;
 }
 
 .my-photo {
@@ -167,7 +166,7 @@ p {
 }
 
 footer {
-  margin: 120px 0px;
+  margin: 120px 0px 20px 0px;
 }
 footer .contact-box {
   background-color: var(--primary-color);
