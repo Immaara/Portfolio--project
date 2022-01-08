@@ -93,6 +93,13 @@ p {
   padding: 20px;
 }
 
+.weather {
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 20px;
+  max-height: 900px;
+}
+
 .work-main {
   text-align: center;
 }
@@ -299,6 +306,12 @@ footer h4 {
   }
   .mail {
     font-size: 18px;
+  }
+  .weather {
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 20px;
+    max-height: 600px;
   }
 }
 
